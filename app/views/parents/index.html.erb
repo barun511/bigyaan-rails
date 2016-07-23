@@ -1,0 +1,20 @@
+<div class="jumbotron container">
+<h1 class="display-3">Parents</h1>
+<p class="lead">This is a placeholder message </p>
+<div class="row">
+    <div class="col-md-4">
+        <%= button_to "Join a Club", parents_joinaclub_path, method: :get, class: "btn btn-lg btn-secondary-outline" %>
+    </div>
+    <div class="col-md-4">
+        <%= button_to "Book a Session", parents_bookasession_path, method: :get, class: "btn btn-lg btn-secondary-outline" %>
+    </div>
+    <div class="col-md-4">
+        <%= button_to "Make a Club", parents_makeaclub_path, method: :get, class: "btn btn-lg btn-secondary-outline" %>
+    </div>
+</div>
+</div>
+<script>
+$(document).ready(function(){
+    $.backstretch("<%= asset_path('parents.jpg') %>");
+});
+</script>

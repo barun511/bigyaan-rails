@@ -1,0 +1,18 @@
+<div class="jumbotron container">
+ <h1 class="display-3">Bigyaan</h1>
+ <p class="lead">Hands on Education.</p>
+ <br><br><br>
+ <div class="row">
+    <div class="col-md-6">
+        <%= button_to "Bigyaan for Schools", schools_path, method: :get, class: "btn btn-lg btn-secondary-outline" %>
+    </div>
+    <div class="col-md-6">
+        <%= button_to "Bigyaan for Parents", parents_path, method: :get, class: "btn btn-lg btn-secondary-outline" %>
+    </div>
+ </div>
+</div>
+<script>
+$(document).ready(function(){
+  $.backstretch("<%= asset_path('home_background.png') %>");
+});
+</script>

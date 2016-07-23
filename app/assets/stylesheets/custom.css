@@ -1,0 +1,35 @@
+@import 'https://fonts.googleapis.com/css?family=Prompt:400,600|Raleway';
+// Put the global styles here
+.navbar {
+    border-radius:0px;
+}
+.container {
+  width:77%;
+}
+.jumbotron {
+    margin-top:0px;
+    margin-left: auto;
+    overflow-y:hidden;
+    margin-right: auto;
+    background-color: rgba(30,32,31,0.5);
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+    height:91%;
+    border-radius:0px;
+    padding-top:10%;
+}
+body {
+    font-family: 'Prompt',sans-serif;
+}
+html, body {height:100%;}
+
+.btn-secondary-outline {
+    color:white;
+    border-color:white;
+    border-radius:0px;
+}
+.btn-secondary-outline:hover {
+    background-color:white;
+    color:black;
+}
