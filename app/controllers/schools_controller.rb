@@ -1,10 +1,10 @@
 class SchoolsController < ApplicationController
     def index
     end
-    def teacher_workshop
+    def teachersworkshops
     end
-    def student_workshop
+    def studentsworkshops
     end
-    def book_a_kit
+    def bookakit
     end
 end
