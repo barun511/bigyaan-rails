@@ -19,6 +19,9 @@
     border-radius:0px;
     padding-top:10%;
 }
+.listed {
+    padding-top:5%;
+}
 body {
     font-family: 'Prompt',sans-serif;
 }
@@ -32,4 +35,8 @@ html, body {height:100%;}
 .btn-secondary-outline:hover {
     background-color:white;
     color:black;
+}
+.description {  // For the list of descriptive items 
+    margin-top:5%;
+    font-size:30px;
 }
